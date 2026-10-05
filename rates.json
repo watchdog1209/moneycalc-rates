@@ -1,0 +1,58 @@
+{
+  "version": 3,
+  "updated": "2026-10-02",
+  "note": "2025.10.16 시행 집값 구간별 주담대 한도 반영",
+  "ltv": {
+    "buy": {
+      "reg": {
+        "none": 40,
+        "sell1": 40,
+        "first": 70,
+        "own1": 0,
+        "multi": 0
+      },
+      "metro": {
+        "none": 70,
+        "sell1": 70,
+        "first": 70,
+        "own1": 0,
+        "multi": 0
+      },
+      "local": {
+        "none": 70,
+        "sell1": 70,
+        "first": 70,
+        "own1": 60,
+        "multi": 60
+      }
+    },
+    "living": {
+      "reg": 40,
+      "metro": 60,
+      "local": 60
+    },
+    "capTiers": [
+      {
+        "upTo": 1500000000,
+        "cap": 600000000
+      },
+      {
+        "upTo": 2500000000,
+        "cap": 400000000
+      },
+      {
+        "upTo": null,
+        "cap": 200000000
+      }
+    ],
+    "capFirst": 600000000,
+    "capLiving": 100000000
+  },
+  "dsrStress": {
+    "capital": 3.0,
+    "local": 0.75,
+    "variable": 1.0,
+    "mixed": 0.8,
+    "periodic": 0.4
+  }
+}
